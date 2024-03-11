@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section id="home">
+        <h1>Welcome to Image Links Page!</h1>
+        <p>Explore the sections below to find images related to different topics.</p>
+        <h2>Home</h2>
+        <a href="https://example.com/technology" target="_blank">
+            <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Technology Image">
+        </a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://example.com/nature1" target="_blank">
+                <img src="https://www.istockphoto.com/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays-gm1419410282-465774617?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fnature%2F&utm_term=nature" alt="Nature Image 1">
+            </a>
+            <a href="https://www.istockphoto.com/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays-gm1419410282-465774617?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fnature%2F&utm_term=naturetps://example.com/nature2" target="_blank">
+                <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_1280.jpg" alt="Nature Image 2">
+            </a>
+            <a href="https://www.shutterstock.com/image-photo/homemade-keto-chicken-meal-prep-veggies-1168866715" target="_blank">
+                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="Nature Image 3">
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <a href="https://example.com/food1" target="_blank">
+                    <img src="https://www.shutterstock.com/image-photo/healthy-lunch-workplace-pick-food-black-1855267585" alt="Food Item 1">
+                    Food Item 1
+                </a>
+            </li>
+            <li>
+                <a href="https://example.com/food2" target="_blank">
+                    <img src="https://www.shutterstock.com/image-photo/healthy-meal-prep-containers-quinoa-chicken-791066053" alt="Food Item 2">
+                    Food Item 2
+                </a>
+            </li>
+            <li>
+                <a href="https://example.com/food3" target="_blank">
+                    <img src="https://www.shutterstock.com/image-photo/homemade-keto-chicken-meal-prep-veggies-1168866715" alt="Food Item 3">
+                    Food Item 3
+                </a>
+            </li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
